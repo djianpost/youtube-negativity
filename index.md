@@ -9,7 +9,37 @@ comments: true
 ---
 
 
-_Hey! I'm Alice, a lazy YouTuber and I want to become famous. I've heard that making negative videos helps because they are more engaging. Can you tell me if it's a good strategy?_
+_Hey! I'm Alice, a lazy YouTuber and I want to become famous. I've heard that making negative videos helps because they are more engaging. But I'm not sure. Can you tell me if it's a good strategy?_
+
+Hey Alice! Let us look at YouTube videos from 2019. We use
+
+
+_Ok, but _
+
+regression 
+
+
+_That's great, I'll make positive/negative videos. But what shall I speak about? Tell me more about what those successful negative videos talk about._
+
+wordclouds
+
+
+_Can you be more precise? What are the topics?_
+
+topic extraction
+
+
+_channel evolution_
+
+channel evolution
+
+
+_But in the end, is negativity really a good way to make success?_
+
+explanations about the size of the effect
+
+
+
 
 This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
