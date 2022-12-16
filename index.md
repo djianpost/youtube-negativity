@@ -1,12 +1,15 @@
 ---
 layout: page
-title: Sample blog post
-subtitle: Each post also has a subtitle
-gh-repo: daattali/beautiful-jekyll
+title: Negativity on YouTube
+subtitle: Alice's path to become a famous YouTuber
+gh-repo: djianpost/youtube-negativity
 gh-badge: [star, fork, follow]
 tags: [test]
 comments: true
 ---
+
+
+_Hey! I'm Alice, a lazy YouTuber and I want to become famous. I've heard that making negative videos helps because they are more engaging. Can you tell me if it's a good strategy?_
 
 This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
 
