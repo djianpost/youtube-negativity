@@ -28,6 +28,8 @@ _Can you be more precise? What are the topics?_
 
 topic extraction
 
+{% include topics.html %}
+
 
 _channel evolution_
 
