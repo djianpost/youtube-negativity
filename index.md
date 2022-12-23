@@ -143,7 +143,7 @@ We can now observe the timeplot of negative sentiment compared other indices of 
 
 ![neg_title_like](assets/img/neg_title_like.png){:class="img-responsive"}
 
-We can observe from these plots that the delta like curve overlaps more with the delta sia curve, meaning that negativity might have a more significant impact on the number of likes. But at the same time, like is a variable that fluctuates way more. 
+We can observe from these plots that the delta like curve overlaps more with the delta sia curve, meaning that negativity might have a more significant impact on the number of likes. But at the same time, likes are usually fluctuating more as it is not a viarable that can be defined automatically such as views, but simply on the motivation of a viewer (a viewer that clicks on the video will not always gives his opinion on it with like/dislike). 
 
 _Great ! But... what can I conclude from that ?_
 
