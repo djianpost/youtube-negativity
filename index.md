@@ -77,6 +77,13 @@ This figure shows clearly the difference of negative sentiment intensity between
 ## [[regression coefficients]]
 
 
+![regression-coefficients](assets/img/regression_log_view_count.png){:class="img-responsive"}
+
+{:.image-caption}
+*Coefficients in the linear regression for the log the the number of views, by video category. Be careful, all the points are statistically significant (p < 0.05) except the positive one for the category Film & Animation.*
+
+
+
 ## [[wordclouds]]
 
 _I'm not sure how to make negative videos. Can you give me more advice?_
