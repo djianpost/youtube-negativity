@@ -132,7 +132,7 @@ _Alright. So will I be guaranteed to have success using negativity ?_
 
 We've conducted an analysis on the 100 channels with the most views. Using the Youniverse dataset, we have access to the stats of each channel at some given points in time, such as the delta of their views and their subs. What we mean by "delta" is the difference between one week from the week before. We merged this dataframe with the videos to find, for each video uploaded at a given date, the closest stats of channels in the timeseries at that corresponding time. The idea was to have the stats for each video, in order to compute the deltas of sentiment through weeks. This way, we could see the evolution of the channels in time, in terms of views, subs and sentiment. We plotted some sample for you to see. Here, you can see the relative evolution of the negativity indice and delta of views throughout the year. 
 
-![neg_title_views](assets/img/neg_title_views.png){:class="img-responsive"}
+![neg_title_views](assets/img/neg_title_desc_views.png){:class="img-responsive"}
 
 _Great ! But... what can I conclude from that ?_
 
