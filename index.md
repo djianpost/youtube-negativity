@@ -25,6 +25,11 @@ wordclouds
 
 ![wordcloud-howto-and-style](assets/img/wc_Howto_Style.png){:class="img-responsive"}
 
+<figure>
+  <img src="assets/img/wc_Howto_and_Style.png" alt="wordcloud-howto-and-style"/>
+  <figcaption>Howto & Style</figcaption>
+</figure>
+
 
 _Can you be more precise? What are the topics?_
 
