@@ -139,7 +139,7 @@ Let's focus on the title, as it is usually what catches the most the attention. 
 
 We can now observe the timeplot of negative sentiment compared other indices of success, such a like or subs.
 
-![neg_title_subs](assets/img/neg_title_subs.png){:class="img-responsive"}
+![neg_title_subs](assets/img/delta_sia_neg_title_views.png){:class="img-responsive"}
 
 ![neg_title_like](assets/img/neg_title_like.png){:class="img-responsive"}
 
