@@ -70,9 +70,6 @@ Videos that reach the trends can be considered successful. [[In addition, the nu
 This figure shows clearly the difference of negative sentiment intensity between the videos that are successful and the ones that are not. This difference is observable in the titles and the descriptions. Obviously, the differences between the two groups are not big but they are statistically significant as the bootstrapped 95% confidence intervals around the mean value are small. There are not overlap between the intervals of the two group. The difference is not negligeable. Of course, a lot of other factors could cause this difference, but it is outside the scope of our work. This observation justifies the following analysis.
 
 
-
-## [[regression coefficients]]
-
 _Can you give me a more fine-grained analysis? I suspect that negativity won't have the same effect for videos about pets or about politics. Also your division between successful and unsuccessful seems a bit arbirtary._
 
 To overcome the issue of the splitting, we make a linear regression where the outcome is the number of views of a video and the predictors are the sentiment scores: positive, negative and neutral. Since the number of views follows a heavy-tailed distribution we use the logarithm of the number of views as the outcome, and we add one before taling the log to avoid -infinity values. We make a linear regression for each category of videos.
@@ -87,10 +84,6 @@ Interestingly, negativity increases the number of views for the category Pets & 
 
 [[maybe add more comments on the regression]]
 
-
-
-
-## [[wordclouds]]
 
 _Thanks for your analysis. But I'm not sure how to make negative videos. Can you give me more advice?_
 
@@ -130,12 +123,12 @@ Successful negative videos in the category Howto & Style talk often about body s
 We were surprised by the fact that negativity increases the success for videos in the category Pets & Animals. Here we understand how that's possible: videos seem to leverage on our feelings for cute animals in trouble (baby, mom, attack, cry).
 
 
-
 _Can you be more precise? What are the topics?_
 
-topic extraction
+[[topic extraction]]
 
 {% include topics.html %}
+
 
 # Evolution of channels using negativity
 
@@ -153,11 +146,3 @@ _But in the end, is negativity really a good way to make success?_
 
 explanations about the size of the effect
 
-
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
