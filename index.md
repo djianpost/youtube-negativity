@@ -25,12 +25,26 @@ wordclouds
 
 
 
+![wordcloud-education](assets/img/wc_Education.png){:class="img-responsive"}
+
+{:.image-caption}
+*Education*
+
+
+![wordcloud-entertainment](assets/img/wc_Entertainment.png){:class="img-responsive"}
+
+{:.image-caption}
+*Entertainment*
+
+
 ![wordcloud-howto-and-style](assets/img/wc_Howto_and_Style.png){:class="img-responsive"}
 
 {:.image-caption}
 *Howto & Style*
 
-![wordcloud-pets-and-animals](assets/img/wc_Pets_and_Animals.png)
+
+![wordcloud-pets-and-animals](assets/img/wc_Pets_and_Animals.png){:class="img-responsive"}
+
 {:.image-caption}
 *Pets & Animals*
 
