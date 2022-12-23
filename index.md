@@ -7,15 +7,15 @@ comments: false
 ---
 
 
-Dear reader, let me tell you the story of the collaboration of Alice, a Youtuber apprentice, and of ADAGANG, a talented group of Data Analysists. The meeting pushed the team to dig into YouNiverse data sets to try to answer an interesting question of the young girl. You have the chance to have access to the communication they exchanged and learn all the secrets the group discovered for Alice.
+It all started on a normal lazy Sunday evening for the Team ADAGANG. The friends gathered in front of a show, and the evening was slowly coming to an end. Suddenly, they received an intriguing message.
 
-It all started on a normal lazy Sunday evening for the Team ADAGANG. The friends gathered in front of a show, and the evening was slowly coming to an end. Suddenly, they received an intriguing mail.
+_Hello ADAGANG,_
 
-# Alice's email
-_Hello ADAGANG, 
-I’m Alice. I am a big fan of YouTube. I kind of have developed a passion for the creation of videos and I thought that I should try myself to make a place in the YouTube game. Unfortunately, I have rapidly realized that it was not easy as it seemed. I have also noticed that I am rather lazy, and I would like to know the different tricks I could use to maximize my success on the platform without spending too much time working. And I suddenly had an idea!
-With Youtube’s and Internet’s user experience, I have noticed that people are often saying that using a negative content can gather more attention. [[In fact, people are often speaking about Click-Bait. This term being quite sketchy and difficult to determine really, I am mostly interested in negativity.]] Can negativity bring me fame on YouTube?
-Please ADAGANG, I have heard about your talents, and I am sure that this question is so easy for to answer. I am going to pay you well!_
+_I’m Alice. I am a big fan of YouTube. I kind of have developed a passion for the creation of videos and I thought that I should try myself to make a place in the YouTube game. Unfortunately, I have rapidly realized that it was not easy as it seemed. I have also noticed that I am rather lazy, and I would like to know the different tricks I could use to maximize my success on the platform without spending too much time working. And I suddenly had an idea!
+With Youtube’s and Internet’s user experience, I have noticed that people are often saying that using a negative content can gather more attention. Can negativity bring me fame on YouTube?_
+
+_Please ADAGANG, I have heard about your talents, and I am sure that this question is so easy for to answer. I am going to pay you well!_
+
 _Waiting for, I hope, an interesting and full of secrets answer from your side, I send you my best regards._
 
 
@@ -27,7 +27,7 @@ However, your cheque is so full of zeros that a negative answer was difficult to
 To answer your question, we will use the YouNiverse dataset [[ref]]. This huge dataset (over 100GB!) contains a lot of information about the videos and channels statistics through time. For efficiency reasons, we will only perform our analysis on one year, 2019. 
 
 
-# What is negativity?
+## What is negativity?
 
 Without a precise definition, negativity can be difficult to represent. Throughout this project, we will use sentiment analysis on the titles and descriptions of the videos, using the natural language processing too Vader from NLTK. It computes scores of negativity, positivity and neutrality on texts. 
 To represent in a better way what returns the sentiment intensity analysis, let's look at an example:
