@@ -40,6 +40,9 @@ To represent in a better way what returns the sentiment intensity analysis, let'
 | "We might or might not be able to help you." | 0.0 | 0.769 | 0.231 |
 | "We will bring so much you fame and success! You are great!" | 0.0 | 0.438 | 0.562 |
 
+<p>
+  
+</p>
 
 <font color="#AA0000">
 <i>
@@ -157,7 +160,7 @@ topic extraction
 
 <font color="#AA0000">
 <i>
-Alright. So will I be guaranteed to have success using negativity ?
+Alright. So will I be guaranteed to have success using negativity?
 </i>
 </font>
 
@@ -178,7 +181,7 @@ We can observe from these plots that the delta like curve overlaps more with the
 
 <font color="#AA0000">
 <i>
-Great ! But... what can I conclude from that ?
+Great! But... what can I conclude from that?
 </i>
 </font>
 
