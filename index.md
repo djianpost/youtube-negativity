@@ -81,9 +81,7 @@ To overcome the issue of the splitting, we make a linear regression where the ou
 
 Interestingly, negativity increases the number of views for the category Pets & Animals, but not for the category News & Politics.
 
-[[maybe add more comments on the regression]]
-
-
+However we must take these conclusions with a grain of salt. The R-squared coefficient in our regressions range from 0.003 to 0.105, which means the regression does not fit the data very well. So we can conclude that although the effects of the different sentiments (negative, positive, neutral) on the number of views are significantly different, they are other factors that influence the number of views.
 
 
 
