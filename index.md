@@ -11,14 +11,14 @@ It all started on a normal lazy Sunday evening for the Team ADAGang. The friends
 
 <font color="#AA0000">
 <i>
-Hello ADAGang,</p>
+Hello ADAGang,
 
 I’m Alice. I am a big fan of YouTube. I kind of have developed a passion for the creation of videos and I thought that I should try myself to make a place in the YouTube game. Unfortunately, I have rapidly realized that it was not easy as it seemed. I have also noticed that I am rather lazy, and I would like to know the different tricks I could use to maximize my success on the platform without spending too much time working. And I suddenly had an idea!
-With Youtube’s and Internet’s user experience, I have noticed that people are often saying that using a negative content can gather more attention. Can negativity bring me fame on YouTube?</p>
+With Youtube’s and Internet’s user experience, I have noticed that people are often saying that using a negative content can gather more attention. Can negativity bring me fame on YouTube?
 
-Please ADAGang, I have heard about your talents, and I am sure that this question is so easy for to answer. I am going to pay you well!</p>
+Please ADAGang, I have heard about your talents, and I am sure that this question is so easy for to answer. I am going to pay you well!_
 
-Waiting for, I hope, an interesting and full of secrets answer from your side, I send you my best regards.</p>
+Waiting for, I hope, an interesting and full of secrets answer from your side, I send you my best regards.
 </i>
 </font>
 
@@ -133,7 +133,7 @@ _Alright. So will I be guaranteed to have success using negativity ?_
 
 We've conducted an analysis on the 100 channels with the most views. Using the Youniverse dataset, we have access to the stats of each channel at some given points in time, such as the delta of their views and their subs. What we mean by "delta" is the difference between one week from the week before. We merged this dataframe with the videos to find, for each video uploaded at a given date, the closest stats of channels in the timeseries at that corresponding time. The idea was to have the stats for each video, in order to compute the deltas of sentiment through weeks. This way, we could see the evolution of the channels in time, in terms of views, subs and sentiment. We plotted some sample for you to see. Here, you can see the relative evolution of the negativity indice and delta of views throughout the year. Relative because we normalized all the deltas in order to fit on the same scale (views are often way larger values than sentiment indices). 
 
-![neg_title_views](assets/img/neg_title_desc_views.png){:class="img-responsive"}
+![neg_title_views](assets/img/neg_title_views.png){:class="img-responsive"}
 
 This first plot shows for a random successful channel the evolution of its overall views throughout the year compared to the average sentiment indice of its video titles and descriptions. As we can see the sentiment
 indice is highly correlated for titles and descriptions, which makes sense as a Youtuber will most likely show the same sentiment to the audience in the title, the description and the content of the video. As for the impact this might have on views, the correlation is harder to determine. We can notice the curves overlapping sometimes, for instance between week and week. But at the same time, they follow a completely inversed distribution during other time such as between week and week.
