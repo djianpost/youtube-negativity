@@ -130,10 +130,15 @@ topic extraction
 {% include topics.html %}
 
 
-_channel evolution_
+_Alright. So will I be guaranteed to have success using negativity ?_
 
-channel evolution
+We've conducted an analysis on the 100 channels with the most views. Using the Youniverse dataset, we have access to the stats of each channel at some given points in time, such as the delta of their views and their subs. What we mean by "delta" is the difference between one week from the week before. We merged this dataframe with the videos to find, for each video uploaded at a given date, the closest stats of channels in the timeseries at that corresponding time. The idea was to have the stats for each video, in order to compute the deltas of sentiment through weeks. This way, we could see the evolution of the channels in time, in terms of views, subs and sentiment. We plotted some sample for you to see. You can play around with the interactive interface to see different results.
 
+[[Insert interactive plot]]
+
+_Great ! But... what can I conclude from that ?_
+
+As you can see, it is hard to see a clear visual correlation between the changes in sentiment and the success indices. This means that, changing your content from neutral to negative, both for title and description, and even positive for what matters wouldn't really imply that you would necessarly get more views or subs. This can be explained by the fact that content and time of upload is also to take in consideration. Posting a video on Christmas is not the same as posting a video a monday afternoon. Posting a video ona specific trend is not the same as talking about a random fact. Many confounders should be taken in consideration. Statistically, using sentiment in general is still more impactful than making a neutral video, but there is many ofther factors. 
 
 _But in the end, is negativity really a good way to make success?_
 
@@ -141,72 +146,9 @@ explanations about the size of the effect
 
 
 
-
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/headings/tables/etc.
-
-**Here is some bold text**
-
-## Here is a secondary heading
-
-Here's a useless table:
-
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-
-How about a yummy crepe?
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg)
-
-It can also be centered!
-
-![Crepe](https://s3-media3.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/348s.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
 ```javascript
 var foo = function(x) {
   return(x + 5);
 }
 foo(3)
 ```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
