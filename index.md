@@ -89,18 +89,21 @@ Interestingly, negativity increases the number of views for the category Pets & 
 
 
 
+
 ## [[wordclouds]]
 
 _Thanks for your analysis. But I'm not sure how to make negative videos. Can you give me more advice?_
 
 Let's look at what negative videos that are successful talk about. We fix thresholds: a video is called "successful" if it is in the top 30% percent with respect to the number of views, and it is called "negative" if it is in the top 1% with respect to the intensity of the negative sentiment in the description. With these thresholds, successful videos are those with at least 9194 views and negative videos are those with a negative sentiment in the description of at least 0.281.
 
-We select videos that are both successful and negative, and we look at the words in their titles. We apply standard NLP preprocessing (stopwords and punctuation removal, casefolding) and we create word clouds for each category of videos. Word clouds are like histograms: the bigger a word is in the word cloud, the more frequently it appears in the video titles. We select four categories of videos where the word clouds are particularly insightful.
+We select videos that are both successful and negative, and we look at the words in their titles. We apply standard NLP preprocessing (stopwords and punctuation removal, casefolding) and we create word clouds for each category of videos, using unigrams (single words). Word clouds are like histograms: the bigger a word is in the word cloud, the more frequently it appears in the video titles. We select four categories of videos where the word clouds are particularly insightful.
 
 ![wordcloud-education](assets/img/wc_Education.png){:class="img-responsive"}
 
 {:.image-caption}
 *Education*
+
+Videos in the category Education seem to talk a lot about law and crime :trial, prosecution, murder, 1st, penalty, police, abuse. The words "1st" and "amendment" appear often, they might designate the first amendment of the US constitution. So to make successful negative videos in this category it looks like speaking about criminal cases is a good advice.
 
 
 ![wordcloud-entertainment](assets/img/wc_Entertainment.png){:class="img-responsive"}
@@ -108,11 +111,15 @@ We select videos that are both successful and negative, and we look at the words
 {:.image-caption}
 *Entertainment*
 
+If you want to make negative and successful entertainment videos, it's (unsurpisingly) a good idea to focus on violent themes: fight, guns, dragon, war, dead.
+
 
 ![wordcloud-howto-and-style](assets/img/wc_Howto_and_Style.png){:class="img-responsive"}
 
 {:.image-caption}
 *Howto & Style*
+
+Successful negative videos in the category Howto & Style talk often about body size (weight, loss, diet, belly, fat), which doesn't seem very nice. "Gun" sounds particularly alarming.
 
 
 ![wordcloud-pets-and-animals](assets/img/wc_Pets_and_Animals.png){:class="img-responsive"}
@@ -120,6 +127,7 @@ We select videos that are both successful and negative, and we look at the words
 {:.image-caption}
 *Pets & Animals*
 
+We were surprised by the fact that negativity increases the success for videos in the category Pets & Animals. Here we understand how that's possible: videos seem to leverage on our feelings for cute animals in trouble (baby, mom, attack, cry).
 
 
 
