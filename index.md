@@ -29,7 +29,7 @@ To answer your question, we will use the YouNiverse dataset [[ref]]. This huge d
 
 ## What is negativity?
 
-Without a precise definition, negativity can be difficult to represent. Throughout this project, we will use sentiment analysis on the titles and descriptions of the videos, using the natural language processing too Vader from NLTK. It computes scores of negativity, positivity and neutrality on texts. 
+Without a precise definition, negativity can be difficult to represent. Throughout this project, we will use sentiment analysis on the titles and descriptions of the videos, using the natural language processing tool Vader from NLTK. It computes scores of negativity, positivity and neutrality on texts. 
 To represent in a better way what returns the sentiment intensity analysis, let's look at examples.
 
 "You will never be a great YouTuber! You are lazy!"
@@ -43,9 +43,6 @@ Negative score: 0.0, Neutral score: 0.438, Positive score: 0.562
 "We might or might not be able to help you."
 
 Negative score: 0.0, Neutral score: 0.769, Positive score: 0.231
-
-
-The examples illustrate what is linked with a highly negative or positive score obtain with the sentiment intensity. 
 
 
 
@@ -96,7 +93,9 @@ Interestingly, negativity increases the number of views for the category Pets & 
 
 _Thanks for your analysis. But I'm not sure how to make negative videos. Can you give me more advice?_
 
-Let's look what negative videos that are successful talk about. [[...]]
+Let's look at what negative videos that are successful talk about. We fix thresholds: a video is called "successful" if it is in the top 30% percent with respect to the number of views, and it is called "negative" if it is in the top 1% with respect to the intensity of the negative sentiment in the description. With these thresholds, successful videos are those with at least 9194 views and negative videos are those with a negative sentiment in the description of at least 0.281.
+
+We select videos that are both successful and negative, and we look at the words in their titles. We apply standard NLP preprocessing (stopwords and punctuation removal, casefolding) and we create word clouds for each category of videos. Word clouds are like histograms: the bigger a word is in the word cloud, the more frequently it appears in the video titles. We select four categories of videos where the word clouds are particularly insightful.
 
 ![wordcloud-education](assets/img/wc_Education.png){:class="img-responsive"}
 
