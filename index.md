@@ -23,15 +23,16 @@ _That's great, I'll make positive/negative videos. But what shall I speak about?
 
 wordclouds
 
-![wordcloud-howto-and-style](assets/img/wc_Howto_and_Style.png){:class="img-responsive"}
 
+
+![wordcloud-howto-and-style](assets/img/wc_Howto_and_Style.png){:class="img-responsive"}
 {:.image-caption}
 *Howto & Style*
 
-<figure>
-  <img src="assets/img/wc_Howto_and_Style.png" alt="wordcloud-howto-and-style"/>
-  <figcaption>Howto & Style</figcaption>
-</figure>
+![wordcloud-pets-and-animals](assets/img/wc_Pets_and_Animals.png){:class="img-responsive"}
+{:.image-caption}
+*Pets & Animals*
+
 
 
 
