@@ -143,6 +143,8 @@ We can now observe the timeplot of negative sentiment compared other indices of 
 
 ![neg_title_like](assets/img/neg_title_like.png){:class="img-responsive"}
 
+We can observe from these plots that the delta like curve overlaps more with the delta sia curve, meaning that negativity might have a more significant impact on the number of likes. But at the same time, like is a variable that fluctuates way more. 
+
 _Great ! But... what can I conclude from that ?_
 
 As you can see, it is hard to see a clear visual correlation between the changes in sentiment and the success indices. This means that, changing your content from neutral to negative, both for title and description, wouldn't really imply that you would necessarly get more views or subs. This can be explained by the fact that content and time of upload is also to take into consideration. Posting a video on Christmas is not the same as posting a video on a monday afternoon. Posting a video about a specific trend is not the same as about a random fact that you are the only to know. Many confounders should be taken in consideration. Statistically, using sentiment in general is still more impactful than making a neutral video, but there is many other factors that could be deterministic for the success of your channel, especially if you're aiming for a long-term evolution. Negativity may be a point  of start, but this shouldn't be your only focus.
