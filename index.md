@@ -9,7 +9,7 @@ comments: false
 
 It all started on a normal lazy Sunday evening for the Team ADAGang. The friends gathered in front of a show, and the evening was slowly coming to an end. Suddenly, they received an intriguing message.
 
-<span style="color:blue">
+<font color="blue">
 _Hello ADAGang,_
 
 _I’m Alice. I am a big fan of YouTube. I kind of have developed a passion for the creation of videos and I thought that I should try myself to make a place in the YouTube game. Unfortunately, I have rapidly realized that it was not easy as it seemed. I have also noticed that I am rather lazy, and I would like to know the different tricks I could use to maximize my success on the platform without spending too much time working. And I suddenly had an idea!
@@ -18,7 +18,7 @@ With Youtube’s and Internet’s user experience, I have noticed that people ar
 _Please ADAGang, I have heard about your talents, and I am sure that this question is so easy for to answer. I am going to pay you well!_
 
 _Waiting for, I hope, an interesting and full of secrets answer from your side, I send you my best regards._
-</span>
+</font>
 
 Hello Alice,
 
