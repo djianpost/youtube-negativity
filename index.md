@@ -135,16 +135,13 @@ We've conducted an analysis on the 100 channels with the most views. Using the Y
 
 ![neg_title_views](assets/img/neg_title_views.png){:class="img-responsive"}
 
-This first plot shows for a random successful channel the evolution of its overall views throughout the year compared to the average sentiment indice of its video titles. As we can see, the correlation between the sentiment and the delta views is harde to determine. We can notice the curves following a similar distribution, for instance between week 20 and week 25. But at the same time, they follow a completely inversed distribution during other times such as between week 5 and week 10.
-If we take a look at the plot of average sentiment indice for the description, it is roughly the same result.
-
-![neg_title_views](assets/img/neg_desc_views.png){:class="img-responsive"}
+Let's focus on the title, as it is usually what catches the most the attention. This first plot shows for a random successful channel the evolution of its overall views throughout the year compared to the average sentiment indice of its video titles. As we can see, the correlation between the sentiment and the delta views is harde to determine. We can notice the curves following a similar distribution, for instance between week 20 and week 25. But at the same time, they follow a completely inversed distribution during other times such as between week 5 and week 10.
 
 We can now observe the timeplot of negative sentiment compared other indices of success, such a like or subs.
 
-![neg_title_views](assets/img/neg_title_subs.png){:class="img-responsive"}
+![neg_title_subs](assets/img/neg_title_subs.png){:class="img-responsive"}
 
-![neg_title_views](assets/img/neg_title_like.png){:class="img-responsive"}
+![neg_title_like](assets/img/neg_title_like.png){:class="img-responsive"}
 
 _Great ! But... what can I conclude from that ?_
 
