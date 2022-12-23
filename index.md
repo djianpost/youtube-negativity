@@ -54,9 +54,6 @@ The examples illustrate what is linked with a highly negative or positive score 
 
 _Okay, I see what's going on. What about my idea using negativity to gain success?_
 
-[[...]]
-
-
 Alice, we agree with you. We have also heard more than once that negativity can gather more attention on a content. However, to make sure that the further analysis are worth it, we have to verify that a difference in negative sentiment intensity score can be highlighted between the videos that make success on YouTube and the videos that do not. To do so, we use a dataset of videos from 2017 to 2018 that are in YouTube's trends [[give ref]].
 
 
@@ -69,12 +66,19 @@ _Okay, please go on._
 
 Videos that reach the trends can be considered successful. [[In addition, the number of views and likes are the most observable and relevant factors that are considered in the YouTube’s algorithm to propel a video in the trends. Of course, this is far from being the only reason for a video to become a trending video. This is, however, an assumption that has been made to filter the successful and not successful videos of our dataset.]]
 
+[[explain what we mean by succesful and not successful videos]]
+
 [[put plot]]
 
 This figure shows clearly the difference of negative sentiment intensity between the videos that are successful and the ones that are not. This difference is observable in the titles and the descriptions. Obviously, the differences between the two groups are not big but they are statistically significant as the bootstrapped 95% confidence intervals around the mean value are small. There are not overlap between the intervals of the two group. The difference is not negligeable. Of course, a lot of other factors could cause this difference, but it is outside the scope of our work. This observation justifies the following analysis.
 
 
+
 ## [[regression coefficients]]
+
+_Can you give me a more fine-grained analysis? I suspect that negativity won't have the same effect for videos about pets or about politics. Also your division between successful and unsuccessful seems a bit arbirtary._
+
+To overcome the issue of the splitting, we make a linear regression where the outcome is the number of views of a video and the predictors are the sentiment scores: positive, negative and neutral. Since the number of views follows a heavy-tailed distribution we use the logarithm of the number of views as the outcome, and we add one before taling the log to avoid -infinity values. We make a linear regression for each category of videos.
 
 
 ![regression-coefficients](assets/img/regression_log_view_count.png){:class="img-responsive"}
@@ -82,11 +86,15 @@ This figure shows clearly the difference of negative sentiment intensity between
 {:.image-caption}
 *Coefficients in the linear regression for the log the the number of views, by video category. Be careful, all the points are statistically significant (p < 0.05) except the positive one for the category Film & Animation.*
 
+Interestingly, negativity increases the number of views for the category Pets & Animals, but not for the category News & Politics.
+
+[[maybe add more comments on the regression]]
+
 
 
 ## [[wordclouds]]
 
-_I'm not sure how to make negative videos. Can you give me more advice?_
+_Thanks for your analysis. But I'm not sure how to make negative videos. Can you give me more advice?_
 
 Let's look what negative videos that are successful talk about. [[...]]
 
