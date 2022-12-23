@@ -26,10 +26,11 @@ wordclouds
 
 
 ![wordcloud-howto-and-style](assets/img/wc_Howto_and_Style.png){:class="img-responsive"}
+
 {:.image-caption}
 *Howto & Style*
 
-![wordcloud-pets-and-animals](assets/img/wc_Pets_and_Animals.png){:class="img-responsive"}
+![wordcloud-pets-and-animals](assets/img/wc_Pets_and_Animals.png)
 {:.image-caption}
 *Pets & Animals*
 
