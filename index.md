@@ -188,4 +188,14 @@ Great! But... what can I conclude from that?
 
 As you can see, it is hard to see a clear visual correlation between the changes in sentiment and the success indices. This means that, changing your content from neutral to negative, both for title and description, wouldn't really imply that you would necessarly get more views or subs. This can be explained by the fact that content and time of upload is also to take into consideration. Posting a video on Christmas is not the same as posting a video on a monday afternoon. Posting a video about a specific trend is not the same as about a random fact that you are the only to know. Many confounders should be taken in consideration. Statistically, using sentiment in general is still more impactful than making a neutral video, but there is many other factors that could be deterministic for the success of your channel, especially if you're aiming for a long-term evolution. Negativity may be a point  of start, but this shouldn't be your only focus.
 
+## Conclusion
 
+But so ADAGANG, can I become a YouTube’s star using the negativity?
+
+Things are not that simple Alice… Emotions are correlated with the success of a YouTube video. You should avoid the neutrality because you might miss the chance to produce a banger. You do not need to be negative all the time though, sometimes being positive could gather some interest around. It is also important that you choose your category in the appropriate way. The categories’ success is in fact more or less sensitive to negative content. The words that you chose in your titles should also be studied., and with them, the topics of your videos…
+A more precise analysis of the channels showed that their evolution cannot be directly explained by the sentiment intensity of their content. A lot of cofounders cause the success of a video, and it would be ambitious to conclude that negativity will make of you a YouTube’s star. It can be a good starting point and it can help you to maximize the success that your video could reach. However, to achieve your dream, we think that the best way is still to work regularly and produce good content…
+
+<i>
+Mmmh okay… Thank you ADAGANG, it was still useful although maybe a bit overpriced. I should maybe have invested in good material instead…
+</i>
+<font>
