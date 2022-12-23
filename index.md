@@ -153,7 +153,7 @@ Can you be more precise? What are the topics?
 </font>
 
 
-topic extraction
+We select the most successful and negative channels based on thresholds as mentionned before, we and extract their main topics using Latent Dirichlet Allocation (LDA), tokenization and lemmatization. This is called Topic Modelling. We focus only on descriptions as they contain more words and might be more representative of the topics we can model. We found out that the category Pets & Animals is the most interesting to conduct the topic modelling as it gives interesting results, and contains more videos that other categories. The plot shows that, for this category, the topics that appear the most indeed use negativity. For instance, topic 8 contains vocabulary related to fight, topic 12 and 15 contains words such as "cry" and "poor". We can see that some of the most recurrent and successful topics in this category are negative. As explained before, this can be because it attracts the attention of the viewer based on pity for animals, hence explaining why negativity is so much present in the topics of this specific category.
 
 {% include topics.html %}
 
