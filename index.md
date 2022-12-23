@@ -9,9 +9,9 @@ comments: true
 ---
 
 
-_Dear reader, let me tell you the story of the collaboration of Alice, a Youtuber apprentice, and of ADAGANG, a talented group of Data Analysists. The meeting pushed the team to dig into YouNiverse data sets to try to answer an interesting question of the young girl. You have the chance to have access to the communication they exchanged and learn all the secrets the group discovered for Alice.
+Dear reader, let me tell you the story of the collaboration of Alice, a Youtuber apprentice, and of ADAGANG, a talented group of Data Analysists. The meeting pushed the team to dig into YouNiverse data sets to try to answer an interesting question of the young girl. You have the chance to have access to the communication they exchanged and learn all the secrets the group discovered for Alice.
 
-_It all started on a normal lazy Sunday evening for the Team ADAGANG. The friends gathered in front of a show, and the evening was slowly coming to an end. Suddenly, they received an intriguing mail.
+It all started on a normal lazy Sunday evening for the Team ADAGANG. The friends gathered in front of a show, and the evening was slowly coming to an end. Suddenly, they received an intriguing mail.
 
 # Alice's email
 Hello ADAGANG, 
