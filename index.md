@@ -9,7 +9,7 @@ comments: false
 
 It all started on a normal lazy Sunday evening for the Team ADAGang. The friends gathered in front of a show, and the evening was slowly coming to an end. Suddenly, they received an intriguing message.
 
-<font color="blue">
+<font color="#AA0000">
 <i>
 _Hello ADAGang,_
 
