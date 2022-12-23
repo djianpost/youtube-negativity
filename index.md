@@ -41,18 +41,31 @@ To represent in a better way what returns the sentiment intensity analysis, let'
 | "We will bring so much you fame and success! You are great!" | 0.0 | 0.438 | 0.562 |
 
 
+<font color="#AA0000">
+<i>
+Okay, I see what's going on. What about my idea using negativity to gain success?
+</i>
+</font>
 
-_Okay, I see what's going on. What about my idea using negativity to gain success?_
 
 Alice, we agree with you. We have also heard more than once that negativity can gather more attention on a content. However, to make sure that the further analysis are worth it, we have to verify that a difference in negative sentiment intensity score can be highlighted between the videos that make success on YouTube and the videos that do not. To do so, we use a [dataset of videos](https://www.kaggle.com/code/ammar111/youtube-trending-videos-analysis) from 2017 to 2018 that are in YouTube's trends.
 
 
-_Why not videos from 2019?_
+<font color="#AA0000">
+<i>
+Why not videos from 2019?
+</i>
+</font>
+
 
 The dataset of trending videos from 2019 costs lots of money, and you didn't pay us enough for that.
 
+<font color="#AA0000">
+<i>
+Okay, please go on.
+</i>
+</font>
 
-_Okay, please go on._
 
 Videos that reach the trends can be considered successful. In addition, the number of views and likes are the most observable and relevant factors that are considered in the [YouTube’s algorithm](https://blog.hootsuite.com/how-the-youtube-algorithm-works/) to propel a video in the trends. Of course, this is far from being the only reason for a video to become a trending video. The number of views and likes of the videos of this dataset are used to determine tresholds to filter successful videos from the created dataset. This is, however, an assumption that has been made to filter the successful and not successful videos of our dataset.
 
@@ -64,8 +77,12 @@ Videos that reach the trends can be considered successful. In addition, the numb
 This figure shows clearly the difference of negative sentiment intensity between the videos that are successful and the ones that are not. This difference is observable in the titles and the descriptions. Obviously, the differences between the two groups are not big but they are statistically significant as the bootstrapped 95% confidence intervals around the mean value are small. There are not overlap between the intervals of the two group. The difference is not negligeable. Of course, a lot of other factors could cause this difference, but it is outside the scope of our work. This observation justifies the following analysis.
 
 
+<font color="#AA0000">
+<i>
+Can you give me a more fine-grained analysis? I suspect that negativity won't have the same effect for videos about pets or about politics. Also your division between successful and unsuccessful seems a bit arbirtary.
+</i>
+</font>
 
-_Can you give me a more fine-grained analysis? I suspect that negativity won't have the same effect for videos about pets or about politics. Also your division between successful and unsuccessful seems a bit arbirtary._
 
 To overcome the issue of the splitting, we make a linear regression where the outcome is the number of views of a video and the predictors are the sentiment scores: positive, negative and neutral. Since the number of views follows a heavy-tailed distribution we use the logarithm of the number of views as the outcome, and we add one before taling the log to avoid -infinity values. We make a linear regression for each category of videos.
 
@@ -82,8 +99,12 @@ However we must take these conclusions with a grain of salt. The R-squared coeff
 
 
 
+<font color="#AA0000">
+<i>
+Thanks for your analysis. But I'm not sure how to make negative videos. Can you give me more advice?
+</i>
+</font>
 
-_Thanks for your analysis. But I'm not sure how to make negative videos. Can you give me more advice?_
 
 Let's look at what negative videos that are successful talk about. We fix thresholds: a video is called "successful" if it is in the top 30% percent with respect to the number of views, and it is called "negative" if it is in the top 1% with respect to the intensity of the negative sentiment in the description. With these thresholds, successful videos are those with at least 9194 views and negative videos are those with a negative sentiment in the description of at least 0.281.
 
@@ -122,14 +143,24 @@ We were surprised by the fact that negativity increases the success for videos i
 
 
 
-_Can you be more precise? What are the topics?_
+<font color="#AA0000">
+<i>
+Can you be more precise? What are the topics?
+</i>
+</font>
+
 
 topic extraction
 
 {% include topics.html %}
 
 
-_Alright. So will I be guaranteed to have success using negativity ?_
+<font color="#AA0000">
+<i>
+Alright. So will I be guaranteed to have success using negativity ?
+</i>
+</font>
+
 
 We've conducted an analysis on the 100 channels with the most views. Using the Youniverse dataset, we have access to the stats of each channel at some given points in time, such as the delta of their views and their subs. What we mean by "delta" is the difference between one week from the week before. We merged this dataframe with the videos to find, for each video uploaded at a given date, the closest stats of channels in the timeseries at that corresponding time. The idea was to have the stats for each video, in order to compute the deltas of sentiment through weeks. This way, we could see the evolution of the channels in time, in terms of views, subs and sentiment. We plotted some sample for you to see. Here, you can see the relative evolution of the negativity indice and delta of views throughout the year. Relative because we normalized all the deltas in order to fit on the same scale (views are often way larger values than sentiment indices). 
 
@@ -145,7 +176,12 @@ We can now observe the timeplot of negative sentiment compared other indices of 
 
 We can observe from these plots that the delta like curve overlaps more with the delta sia curve, meaning that negativity might have a more significant impact on the number of likes. But at the same time, likes are usually fluctuating more as it is not a viarable that can be defined automatically such as views, but simply on the motivation of a viewer (a viewer that clicks on the video will not always gives his opinion on it with like/dislike). 
 
-_Great ! But... what can I conclude from that ?_
+<font color="#AA0000">
+<i>
+Great ! But... what can I conclude from that ?
+</i>
+</font>
+
 
 As you can see, it is hard to see a clear visual correlation between the changes in sentiment and the success indices. This means that, changing your content from neutral to negative, both for title and description, wouldn't really imply that you would necessarly get more views or subs. This can be explained by the fact that content and time of upload is also to take into consideration. Posting a video on Christmas is not the same as posting a video on a monday afternoon. Posting a video about a specific trend is not the same as about a random fact that you are the only to know. Many confounders should be taken in consideration. Statistically, using sentiment in general is still more impactful than making a neutral video, but there is many other factors that could be deterministic for the success of your channel, especially if you're aiming for a long-term evolution. Negativity may be a point  of start, but this shouldn't be your only focus.
 
