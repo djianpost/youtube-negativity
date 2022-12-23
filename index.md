@@ -79,7 +79,8 @@ To overcome the issue of the splitting, we make a linear regression where the ou
 {:.image-caption}
 *Coefficients in the linear regression for the log the the number of views, by video category. Be careful, all the points are statistically significant (p < 0.05) except the positive one for the category Film & Animation.*
 
-Interestingly, negativity increases the number of views for the category Pets & Animals, but not for the category News & Politics.
+This representationof the linear regression coefficients prove that the positivity and negativity induce more views in general. The results are, however, highly different between the categories. Negativity tends to be more correlated with larger amount of views than positivity. In Autos & Vehicules and Music, it is the opposite. Emotions perform better than neutrality for almost any categories.
+Some results are also surprising. It News & Politics, negativity does not increase the number of views. It is the case for the categorie Pets & Animals. Alice, the categorie, you will choose could highly impact your success on the platform.
 
 However we must take these conclusions with a grain of salt. The R-squared coefficient in our regressions range from 0.003 to 0.105, which means the regression does not fit the data very well. So we can conclude that although the effects of the different sentiments (negative, positive, neutral) on the number of views are significantly different, they are other factors that influence the number of views.
 
