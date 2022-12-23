@@ -143,9 +143,6 @@ We've conducted an analysis on the 100 channels with the most views. Using the Y
 
 _Great ! But... what can I conclude from that ?_
 
-As you can see, it is hard to see a clear visual correlation between the changes in sentiment and the success indices. This means that, changing your content from neutral to negative, both for title and description, and even positive for what matters wouldn't really imply that you would necessarly get more views or subs. This can be explained by the fact that content and time of upload is also to take in consideration. Posting a video on Christmas is not the same as posting a video on a monday afternoon. Posting a video about a specific trend is not the same as about a random fact that you are the only to know. Many confounders should be taken in consideration. Statistically, using sentiment in general is still more impactful than making a neutral video, but there is many other factors that could be deterministic for the success of your channel, especially if you're aiming for a long-term evolution. Negativity may be a point  of start, but this shouldn't be your only focus.
-
-# Conclusion
-
+As you can see, it is hard to see a clear visual correlation between the changes in sentiment and the success indices. This means that, changing your content from neutral to negative, both for title and description, wouldn't really imply that you would necessarly get more views or subs. This can be explained by the fact that content and time of upload is also to take into consideration. Posting a video on Christmas is not the same as posting a video on a monday afternoon. Posting a video about a specific trend is not the same as about a random fact that you are the only to know. Many confounders should be taken in consideration. Statistically, using sentiment in general is still more impactful than making a neutral video, but there is many other factors that could be deterministic for the success of your channel, especially if you're aiming for a long-term evolution. Negativity may be a point  of start, but this shouldn't be your only focus.
 
 
