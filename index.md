@@ -3,9 +3,7 @@ layout: page
 title: Negativity on YouTube
 subtitle: Alice's path to become a famous YouTuber
 gh-repo: djianpost/youtube-negativity
-gh-badge: [star, fork, follow]
-tags: [test]
-comments: true
+comments: false
 ---
 
 
