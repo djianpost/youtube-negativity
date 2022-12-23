@@ -27,7 +27,6 @@ However, your cheque is so full of zeros that a negative answer was difficult to
 To answer your question, we will use the [YouNiverse dataset](https://zenodo.org/record/4650046#.Y6YPLezMIUE). This huge dataset (over 100GB!) contains a lot of information about the videos and channels statistics through time. For efficiency reasons, we will only perform our analysis on one year, 2019. 
 
 
-## What is negativity?
 
 Without a precise definition, negativity can be difficult to represent. Throughout this project, we will use sentiment analysis on the titles and descriptions of the videos, using the natural language processing tool Vader from NLTK. It computes scores of negativity, positivity and neutrality on texts. 
 To represent in a better way what returns the sentiment intensity analysis, let's look at examples.
@@ -46,8 +45,6 @@ Negative score: 0.0, Neutral score: 0.769, Positive score: 0.231
 
 
 
-# First step of the analysis
-
 
 _Okay, I see what's going on. What about my idea using negativity to gain success?_
 
@@ -63,7 +60,7 @@ _Okay, please go on._
 
 Videos that reach the trends can be considered successful. In addition, the number of views and likes are the most observable and relevant factors that are considered in the [YouTube’s algorithm](https://blog.hootsuite.com/how-the-youtube-algorithm-works/) to propel a video in the trends. Of course, this is far from being the only reason for a video to become a trending video. The number of views and likes of the videos of this dataset are used to determine tresholds to filter successful videos from the created dataset. This is, however, an assumption that has been made to filter the successful and not successful videos of our dataset.
 
-![Comparison success](assets/img/Comparison succes.png){:class="img-responsive"}
+![Cneg_success_vs_not_sucess](assets/img/neg_success_vs_not_sucess.png){:class="img-responsive"}
 
 {:.image-caption}
 *Comparison of the negativity sentiment intensity in the title and description between successful videos and not successful*
@@ -71,8 +68,6 @@ Videos that reach the trends can be considered successful. In addition, the numb
 This figure shows clearly the difference of negative sentiment intensity between the videos that are successful and the ones that are not. This difference is observable in the titles and the descriptions. Obviously, the differences between the two groups are not big but they are statistically significant as the bootstrapped 95% confidence intervals around the mean value are small. There are not overlap between the intervals of the two group. The difference is not negligeable. Of course, a lot of other factors could cause this difference, but it is outside the scope of our work. This observation justifies the following analysis.
 
 
-
-## [[regression coefficients]]
 
 _Can you give me a more fine-grained analysis? I suspect that negativity won't have the same effect for videos about pets or about politics. Also your division between successful and unsuccessful seems a bit arbirtary._
 
@@ -91,7 +86,7 @@ Interestingly, negativity increases the number of views for the category Pets & 
 
 
 
-## [[wordclouds]]
+
 
 _Thanks for your analysis. But I'm not sure how to make negative videos. Can you give me more advice?_
 
@@ -138,7 +133,9 @@ topic extraction
 
 {% include topics.html %}
 
-# Evolution of channels using negativity
+
+
+
 
 _Alright. So will I be guaranteed to have success using negativity ?_
 
@@ -156,9 +153,3 @@ explanations about the size of the effect
 
 
 
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
