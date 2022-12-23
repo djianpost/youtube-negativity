@@ -23,7 +23,7 @@ _That's great, I'll make positive/negative videos. But what shall I speak about?
 
 wordclouds
 
-![wordcloud-howto-and-style](wc_Howto_Style.png){:class="img-responsive"}
+![wordcloud-howto-and-style](assets/img/wc_Howto_Style.png){:class="img-responsive"}
 
 
 _Can you be more precise? What are the topics?_
