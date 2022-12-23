@@ -31,7 +31,7 @@ To answer your question, we will use the [YouNiverse dataset](https://zenodo.org
 Without a precise definition, negativity can be difficult to represent. Throughout this project, we will use sentiment analysis on the titles and descriptions of the videos, using the natural language processing tool Vader from NLTK. It computes scores of intensity of three sentiments (egativity, positivity and neutrality) on texts. The scores are from 0 (no emotion) to 1 (very intense emotion).
 To represent in a better way what returns the sentiment intensity analysis, let's look at some examples. The sentiment intensity of each sentence is in the column of the corresponding emoji.
 
-| | :( | :\| | :) |
+| | 🙁 | 😐 | 🙂 |
 | :-- | :------ |:--- | :--- |
 | "You will never be a great YouTuber! You are lazy!" | 0.477 | 0.523 | 0.0 |
 | "We might or might not be able to help you." | 0.0 | 0.769 | 0.231 |
